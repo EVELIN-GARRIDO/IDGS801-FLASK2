@@ -17,7 +17,7 @@ def alumnos():
     mat = ''
     nom = ''
 
-    if (request.method == 'POST'):
+    if (request.method == 'POST' and reg_alum.validate()):
         mat = reg_alum.matricula.data
         nom = reg_alum.nombre.data
 
