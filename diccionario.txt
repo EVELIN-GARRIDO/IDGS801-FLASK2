@@ -1,0 +1,5 @@
+hola,hello
+rojo,red
+oso,beard
+verde,green
+anillo,ring
